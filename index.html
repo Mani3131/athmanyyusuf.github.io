@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athman Mazera Yusuf | Professional Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #ecf0f1;
+        }
+        .contact-info {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+        .contact-info span {
+            margin: 0 10px;
+        }
+        nav {
+            background: #34495e;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav ul li a:hover {
+            color: #3498db;
+        }
+        section {
+            padding: 3rem 0;
+            background: #fff;
+            margin: 1rem 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #3498db;
+        }
+        .job, .education {
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 4px solid #3498db;
+        }
+        .job h3, .education h3 {
+            color: #34495e;
+            margin-bottom: 0.5rem;
+        }
+        .job .company, .education .school {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .job .date, .education .date {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .skill-category h3 {
+            color: #34495e;
+            margin: 1rem 0 0.5rem 0;
+        }
+        .skill-category ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skill-category li {
+            padding: 0.3rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .skill-category li:before {
+            content: "✓";
+            color: #27ae60;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        .objective {
+            background: #ecf0f1;
+            padding: 1.5rem;
+            border-radius: 5px;
+            font-style: italic;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Athman Mazera Yusuf</h1>
+        <p>Customer Service Professional | IT Specialist | Sales Expert</p>
+        <div class="contact-info">
+            <span>📍 Nakuru, Kenya</span>
+            <span>📞 0720503764</span>
+            <span>✉️ athmanmazera@gmail.com</span>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>Professional Objective</h2>
+            <div class="objective">
+                Dynamic and results-driven professional with passion, confidentiality, sincerity, integrity and flexibility. Seeking to improve and obtain ultimate objective of my employer and the organization with absolute professionalism.
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            
+            <div class="job">
+                <h3>Inhouse Sales Officer</h3>
+                <div class="company">Fairdeal Furniture, Nakuru</div>
+                <div class="date">March 2020 – Present</div>
+                <ul>
+                    <li>Managed the showroom floor, greeting customers and providing assistance with product inquiries and purchases</li>
+                    <li>Demonstrated in-depth knowledge of furniture products, including features, specifications, and pricing</li>
+                    <li>Built strong relationships with customers, addressing their needs and concerns to ensure positive shopping experiences</li>
+                    <li>Assisted in inventory management, including monitoring stock levels and conducting stock counts</li>
+                    <li>Participated in promotional events and marketing campaigns to drive foot traffic and increase brand visibility</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Warehouse Clerk</h3>
+                <div class="company">Console Base Ltd, Mombasa</div>
+                <div class="date">2019 – 2020</div>
+                <ul>
+                    <li>Managed inbound and outbound logistics</li>
+                    <li>Maintained accurate inventory records</li>
+                    <li>Ensured proper storage and organization of goods</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Computer Sales Officer</h3>
+                <div class="company">Flexible Technology, Nakuru</div>
+                <div class="date">2017 – 2018</div>
+                <ul>
+                    <li>Sold computer hardware and software solutions</li>
+                    <li>Provided technical support and product demonstrations</li>
+                    <li>Built relationships with clients and achieved sales targets</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Pump Attendant</h3>
+                <div class="company">First Energy Ltd, Nakuru</div>
+                <div class="date">2013 – 2016</div>
+                <ul>
+                    <li>Delivered excellent customer service in a fast-paced environment</li>
+                    <li>Handled cash transactions accurately</li>
+                    <li>Maintained safety and compliance standards</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education & Certifications</h2>
+            
+            <div class="education">
+                <h3>Cisco Networking Certification</h3>
+                <div class="school">Kabarak University, Nakuru</div>
+                <div class="date">Graduated: June 28, 2012</div>
+                <p><strong>Relevant Coursework:</strong> Accessing the WAN, Network Fundamentals, LAN Switching, Routing Protocols</p>
+            </div>
+
+            <div class="education">
+                <h3>Diploma in Information Technology</h3>
+                <div class="school">Mwangaza College, Nakuru</div>
+                <div class="date">Graduated: August 30, 2011</div>
+                <p><strong>Relevant Coursework:</strong> Programming Languages (Java, Python), Database Management Systems, Web Development, Network Administration</p>
+            </div>
+
+            <div class="education">
+                <h3>KCSE</h3>
+                <div class="school">Flamingo Secondary School, Nakuru</div>
+                <div class="date">2005 – 2008</div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Microsoft Office Suite (Word, Excel, PowerPoint)</li>
+                        <li>CRM Software (Salesforce)</li>
+                        <li>Java & Python Programming</li>
+                        <li>Database Management</li>
+                        <li>Network Administration</li>
+                        <li>Web Development</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Professional Skills</h3>
+                    <ul>
+                        <li>Excellent Verbal & Written Communication</li>
+                        <li>Customer Relationship Management</li>
+                        <li>Sales & Negotiation</li>
+                        <li>Inventory Management</li>
+                        <li>Problem Solving</li>
+                        <li>Team Collaboration</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Personal Strengths</h3>
+                    <ul>
+                        <li>Integrity & Confidentiality</li>
+                        <li>Adaptability & Resilience</li>
+                        <li>Detail-Oriented</li>
+                        <li>Fast-Paced Environment Management</li>
+                        <li>Multitasking & Prioritization</li>
+                        <li>Customer-Focused Mindset</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests">
+            <h2>Personal Interests</h2>
+            <ul style="list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <li>📚 General Reading</li>
+                <li>🌐 Networking</li>
+                <li>💡 Information Acquisition</li>
+                <li>✈️ Traveling</li>
+                <li>⚽ Football</li>
+                <li>🏊 Swimming</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>References</h2>
+            <div class="job">
+                <h3>Mr. Yusuf Mwinyi</h3>
+                <div class="company">Human Resource Manager, Fairdeal Furniture HQ</div>
+                <div>Phone: 0724291829</div>
+            </div>
+            <div class="job">
+                <h3>Ms. Elizabeth Khussi</h3>
+                <div class="company">Branch Manager, Fairdeal Furniture Nakuru</div>
+                <div>Phone: 0711920132</div>
+            </div>
+            <div class="job">
+                <h3>Mr. Ahmed Mohamed</h3>
+                <div class="company">Assistant Manager, First Energy Ltd</div>
+                <div>Phone: 0705111131</div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Athman Mazera Yusuf. All rights reserved.</p>
+        <p>📧 athmanmazera@gmail.com | 📞 0720503764</p>
+    </footer>
+</body>
+</html>
